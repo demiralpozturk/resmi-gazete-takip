@@ -1,0 +1,542 @@
+{
+ "son_tarih": "2026-11-27",
+ "ilk_tarih": "2026-10-30",
+ "gun_sayisi": 29,
+ "gunler": [
+  {
+   "tarih": "2026-11-27",
+   "sayilar": [
+    {
+     "sayi": 33443,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127.pdf"
+    }
+   ],
+   "madde_sayisi": 31,
+   "kategoriler": {
+    "dis-ticaret": 1,
+    "egitim": 1,
+    "enerji": 5,
+    "finans": 3,
+    "gumruk": 1,
+    "ihale": 1,
+    "imar": 2,
+    "tarim-gida": 1,
+    "ulastirma": 1,
+    "vergi": 2,
+    "yargi": 5
+   },
+   "dosya": "data/2026/11/27.json"
+  },
+  {
+   "tarih": "2026-11-26",
+   "sayilar": [
+    {
+     "sayi": 33442,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261126.pdf"
+    }
+   ],
+   "madde_sayisi": 16,
+   "kategoriler": {
+    "dis-ticaret": 1,
+    "egitim": 3,
+    "enerji": 1,
+    "finans": 1,
+    "ihale": 1,
+    "yargi": 8
+   },
+   "dosya": "data/2026/11/26.json"
+  },
+  {
+   "tarih": "2026-11-25",
+   "sayilar": [
+    {
+     "sayi": 33441,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125.pdf"
+    }
+   ],
+   "madde_sayisi": 6,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/25.json"
+  },
+  {
+   "tarih": "2026-11-24",
+   "sayilar": [
+    {
+     "sayi": 33440,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261124.pdf"
+    }
+   ],
+   "madde_sayisi": 8,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1,
+    "tarim-gida": 1,
+    "vergi": 2,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/24.json"
+  },
+  {
+   "tarih": "2026-11-23",
+   "sayilar": [
+    {
+     "sayi": 33439,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261123.pdf"
+    }
+   ],
+   "madde_sayisi": 6,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/23.json"
+  },
+  {
+   "tarih": "2026-11-22",
+   "sayilar": [
+    {
+     "sayi": 33438,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122.pdf"
+    }
+   ],
+   "madde_sayisi": 5,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/22.json"
+  },
+  {
+   "tarih": "2026-11-21",
+   "sayilar": [
+    {
+     "sayi": 33437,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121.pdf"
+    }
+   ],
+   "madde_sayisi": 12,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "saglik": 3,
+    "tarim-gida": 1,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/21.json"
+  },
+  {
+   "tarih": "2026-11-20",
+   "sayilar": [
+    {
+     "sayi": 33436,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120.pdf"
+    }
+   ],
+   "madde_sayisi": 7,
+   "kategoriler": {
+    "enerji": 3,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/20.json"
+  },
+  {
+   "tarih": "2026-11-19",
+   "sayilar": [
+    {
+     "sayi": 33435,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119.pdf"
+    }
+   ],
+   "madde_sayisi": 7,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "ulastirma": 1
+   },
+   "dosya": "data/2026/11/19.json"
+  },
+  {
+   "tarih": "2026-11-18",
+   "sayilar": [
+    {
+     "sayi": 33434,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118.pdf"
+    }
+   ],
+   "madde_sayisi": 10,
+   "kategoriler": {
+    "dis-ticaret": 1,
+    "egitim": 1,
+    "enerji": 1,
+    "finans": 2,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/18.json"
+  },
+  {
+   "tarih": "2026-11-17",
+   "sayilar": [
+    {
+     "sayi": 33433,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261117.pdf"
+    }
+   ],
+   "madde_sayisi": 7,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1,
+    "tarim-gida": 1,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/17.json"
+  },
+  {
+   "tarih": "2026-11-16",
+   "sayilar": [
+    {
+     "sayi": 33432,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116.pdf"
+    }
+   ],
+   "madde_sayisi": 8,
+   "kategoriler": {
+    "egitim": 4,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/16.json"
+  },
+  {
+   "tarih": "2026-11-15",
+   "sayilar": [
+    {
+     "sayi": 33431,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261115.pdf"
+    }
+   ],
+   "madde_sayisi": 10,
+   "kategoriler": {
+    "egitim": 5,
+    "finans": 1,
+    "ihale": 1,
+    "imar": 1,
+    "tarim-gida": 1
+   },
+   "dosya": "data/2026/11/15.json"
+  },
+  {
+   "tarih": "2026-11-14",
+   "sayilar": [
+    {
+     "sayi": 33430,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114.pdf"
+    }
+   ],
+   "madde_sayisi": 21,
+   "kategoriler": {
+    "egitim": 3,
+    "enerji": 6,
+    "finans": 1,
+    "ihale": 1,
+    "saglik": 1
+   },
+   "dosya": "data/2026/11/14.json"
+  },
+  {
+   "tarih": "2026-11-13",
+   "sayilar": [
+    {
+     "sayi": 33429,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261113.pdf"
+    }
+   ],
+   "madde_sayisi": 8,
+   "kategoriler": {
+    "egitim": 3,
+    "finans": 1,
+    "ihale": 1,
+    "saglik": 1
+   },
+   "dosya": "data/2026/11/13.json"
+  },
+  {
+   "tarih": "2026-11-12",
+   "sayilar": [
+    {
+     "sayi": 33428,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112.pdf"
+    }
+   ],
+   "madde_sayisi": 8,
+   "kategoriler": {
+    "finans": 3,
+    "ihale": 1,
+    "imar": 1
+   },
+   "dosya": "data/2026/11/12.json"
+  },
+  {
+   "tarih": "2026-11-11",
+   "sayilar": [
+    {
+     "sayi": 33427,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261111.pdf"
+    }
+   ],
+   "madde_sayisi": 9,
+   "kategoriler": {
+    "dis-ticaret": 1,
+    "egitim": 1,
+    "finans": 3,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/11.json"
+  },
+  {
+   "tarih": "2026-11-10",
+   "sayilar": [
+    {
+     "sayi": 33426,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110.pdf"
+    }
+   ],
+   "madde_sayisi": 11,
+   "kategoriler": {
+    "finans": 1,
+    "ihale": 1,
+    "saglik": 1,
+    "tarim-gida": 1,
+    "vergi": 1
+   },
+   "dosya": "data/2026/11/10.json"
+  },
+  {
+   "tarih": "2026-11-09",
+   "sayilar": [
+    {
+     "sayi": 33425,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261109.pdf"
+    }
+   ],
+   "madde_sayisi": 9,
+   "kategoriler": {
+    "egitim": 5,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/09.json"
+  },
+  {
+   "tarih": "2026-11-08",
+   "sayilar": [
+    {
+     "sayi": 33424,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108.pdf"
+    }
+   ],
+   "madde_sayisi": 7,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/08.json"
+  },
+  {
+   "tarih": "2026-11-07",
+   "sayilar": [
+    {
+     "sayi": 33423,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107.pdf"
+    }
+   ],
+   "madde_sayisi": 11,
+   "kategoriler": {
+    "enerji": 1,
+    "finans": 1,
+    "ihale": 1,
+    "tarim-gida": 1
+   },
+   "dosya": "data/2026/11/07.json"
+  },
+  {
+   "tarih": "2026-11-06",
+   "sayilar": [
+    {
+     "sayi": 33422,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261106.pdf"
+    }
+   ],
+   "madde_sayisi": 11,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 2,
+    "ihale": 1,
+    "yargi": 4
+   },
+   "dosya": "data/2026/11/06.json"
+  },
+  {
+   "tarih": "2026-11-05",
+   "sayilar": [
+    {
+     "sayi": 33421,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261105.pdf"
+    }
+   ],
+   "madde_sayisi": 7,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1,
+    "ulastirma": 1
+   },
+   "dosya": "data/2026/11/05.json"
+  },
+  {
+   "tarih": "2026-11-04",
+   "sayilar": [
+    {
+     "sayi": 33420,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261104.pdf"
+    }
+   ],
+   "madde_sayisi": 12,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1,
+    "yargi": 6
+   },
+   "dosya": "data/2026/11/04.json"
+  },
+  {
+   "tarih": "2026-11-03",
+   "sayilar": [
+    {
+     "sayi": 33419,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103.pdf"
+    }
+   ],
+   "madde_sayisi": 16,
+   "kategoriler": {
+    "calisma": 1,
+    "enerji": 3,
+    "finans": 1,
+    "ihale": 1,
+    "tarim-gida": 3
+   },
+   "dosya": "data/2026/11/03.json"
+  },
+  {
+   "tarih": "2026-11-02",
+   "sayilar": [
+    {
+     "sayi": 33418,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261102.pdf"
+    }
+   ],
+   "madde_sayisi": 9,
+   "kategoriler": {
+    "egitim": 3,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/02.json"
+  },
+  {
+   "tarih": "2026-11-01",
+   "sayilar": [
+    {
+     "sayi": 33417,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261101.pdf"
+    }
+   ],
+   "madde_sayisi": 10,
+   "kategoriler": {
+    "egitim": 1,
+    "finans": 1,
+    "ihale": 1
+   },
+   "dosya": "data/2026/11/01.json"
+  },
+  {
+   "tarih": "2026-10-31",
+   "sayilar": [
+    {
+     "sayi": 33416,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031.pdf"
+    }
+   ],
+   "madde_sayisi": 24,
+   "kategoriler": {
+    "enerji": 6,
+    "finans": 1,
+    "gumruk": 1,
+    "ihale": 1,
+    "tarim-gida": 1,
+    "ulastirma": 1
+   },
+   "dosya": "data/2026/10/31.json"
+  },
+  {
+   "tarih": "2026-10-30",
+   "sayilar": [
+    {
+     "sayi": 33415,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261030.pdf"
+    }
+   ],
+   "madde_sayisi": 13,
+   "kategoriler": {
+    "egitim": 2,
+    "finans": 1,
+    "ihale": 1,
+    "imar": 1,
+    "yargi": 6
+   },
+   "dosya": "data/2026/10/30.json"
+  }
+ ]
+}
