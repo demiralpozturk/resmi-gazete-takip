@@ -1,0 +1,148 @@
+{
+ "tarih": "2026-11-16",
+ "sayilar": [
+  {
+   "sayi": 33432,
+   "mukerrer": 0,
+   "baslik": "16 Kasım 2026 Tarihli ve 33432 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-16",
+   "madde_sayisi": 8
+  }
+ ],
+ "madde_sayisi": 8,
+ "maddeler": [
+  {
+   "id": "20261116-1",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Atılım Üniversitesi Ana Yönetmeliği",
+   "kurum": "Atılım Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116-1.htm",
+   "bicim": "htm",
+   "sira": 1,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261116-2",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Atılım Üniversitesi Lisansüstü Eğitim-Öğretim Yönetmeliği",
+   "kurum": "Atılım Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116-2.htm",
+   "bicim": "htm",
+   "sira": 2,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261116-3",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Karadeniz Teknik Üniversitesi Lisansüstü Eğitim-Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Karadeniz Teknik Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116-3.htm",
+   "bicim": "htm",
+   "sira": 3,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261116-4",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Karadeniz Teknik Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim Yönetmeliği",
+   "kurum": "Karadeniz Teknik Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261116-4.htm",
+   "bicim": "htm",
+   "sira": 4,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "ilan-20261116-2",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Yargı İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261116-2.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261116-3",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261116-3.htm",
+   "bicim": "htm",
+   "sira": 6,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261116-4",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261116-4.htm",
+   "bicim": "htm",
+   "sira": 7,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261116-5",
+   "tarih": "2026-11-16",
+   "sayi": 33432,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261116-5.htm",
+   "bicim": "htm",
+   "sira": 8,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}

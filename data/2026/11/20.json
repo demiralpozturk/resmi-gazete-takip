@@ -1,0 +1,131 @@
+{
+ "tarih": "2026-11-20",
+ "sayilar": [
+  {
+   "sayi": 33436,
+   "mukerrer": 0,
+   "baslik": "20 Kasım 2026 Tarihli ve 33436 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-20",
+   "madde_sayisi": 7
+  }
+ ],
+ "madde_sayisi": 7,
+ "maddeler": [
+  {
+   "id": "20261120-1",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİK",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Belediye Meclisi Çalışma Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-1.htm",
+   "bicim": "htm",
+   "sira": 1,
+   "kategoriler": []
+  },
+  {
+   "id": "20261120-2",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "KURUL KARARLARI",
+   "tur_kisa": "Karar",
+   "baslik": "Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15055 Sayılı Kararı",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-2.pdf",
+   "bicim": "pdf",
+   "sira": 2,
+   "kategoriler": [
+    "enerji"
+   ]
+  },
+  {
+   "id": "20261120-3",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "KURUL KARARLARI",
+   "tur_kisa": "Karar",
+   "baslik": "Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15056 Sayılı Kararı",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-3.pdf",
+   "bicim": "pdf",
+   "sira": 3,
+   "kategoriler": [
+    "enerji"
+   ]
+  },
+  {
+   "id": "20261120-4",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "KURUL KARARLARI",
+   "tur_kisa": "Karar",
+   "baslik": "Nükleer Düzenleme Kurulunun 17/11/2026 Tarihli ve 2026-49/1-1, 1-2, 1-3, 1-4, 1-5 ve 1-6 Sayılı Kararları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-4.pdf",
+   "bicim": "pdf",
+   "sira": 4,
+   "kategoriler": [
+    "enerji"
+   ]
+  },
+  {
+   "id": "ilan-20261120-3",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-3.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261120-4",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-4.htm",
+   "bicim": "htm",
+   "sira": 6,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261120-5",
+   "tarih": "2026-11-20",
+   "sayi": 33436,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": "Türkiye Cumhuriyet Merkez Bankası",
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261120-5.htm",
+   "bicim": "htm",
+   "sira": 7,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}
