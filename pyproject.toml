@@ -1,0 +1,12 @@
+[project]
+name = "resmi-gazete-takip"
+version = "1.0.0"
+description = "Resmî Gazete'yi açık veri (JSON), RSS ve aranabilir web sitesine dönüştürür"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Demiralp Öztürk" }]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
