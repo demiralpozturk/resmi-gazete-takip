@@ -294,7 +294,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-20.pdf",
    "bicim": "pdf",
    "sira": 18,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261127-21",
@@ -326,7 +328,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-2.htm",
    "bicim": "htm",
    "sira": 20,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261127-3",
@@ -793,7 +797,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261125-3.pdf",
    "bicim": "pdf",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261125-1",
@@ -1289,7 +1295,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261121-6.pdf",
    "bicim": "pdf",
    "sira": 6,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261121-7",
@@ -1413,7 +1421,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15055 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-2.pdf",
    "bicim": "pdf",
    "sira": 2,
@@ -1430,7 +1438,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15056 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-3.pdf",
    "bicim": "pdf",
    "sira": 3,
@@ -1447,7 +1455,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Nükleer Düzenleme Kurulunun 17/11/2026 Tarihli ve 2026-49/1-1, 1-2, 1-3, 1-4, 1-5 ve 1-6 Sayılı Kararları",
-   "kurum": null,
+   "kurum": "Nükleer Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261120-4.pdf",
    "bicim": "pdf",
    "sira": 4,
@@ -1647,7 +1655,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-2.pdf",
    "bicim": "pdf",
    "sira": 2,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261118-3",
@@ -1662,7 +1672,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-3.pdf",
    "bicim": "pdf",
    "sira": 3,
-   "kategoriler": []
+   "kategoriler": [
+    "sanayi-yatirim"
+   ]
   },
   {
    "id": "20261118-4",
@@ -1708,7 +1720,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Bankacılık Düzenleme ve Denetleme Kurulunun 17/11/2026 Tarihli ve 11601 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Bankacılık Düzenleme ve Denetleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-6.pdf",
    "bicim": "pdf",
    "sira": 6,
@@ -1793,7 +1805,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261117-1.htm",
    "bicim": "htm",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261117-2",
@@ -2254,7 +2268,8 @@
    "bicim": "pdf",
    "sira": 4,
    "kategoriler": [
-    "egitim"
+    "egitim",
+    "sanayi-yatirim"
    ]
   },
   {
@@ -2402,7 +2417,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114-13.pdf",
    "bicim": "pdf",
    "sira": 13,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261114-14",
@@ -2726,7 +2743,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112-4.htm",
    "bicim": "htm",
    "sira": 4,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "ilan-20261112-2",
@@ -2982,7 +3001,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110-3.htm",
    "bicim": "htm",
    "sira": 3,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261110-4",
@@ -3014,7 +3035,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261110-5.pdf",
    "bicim": "pdf",
    "sira": 5,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261110-6",
@@ -3391,7 +3414,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-1.pdf",
    "bicim": "pdf",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261107-2",
@@ -3421,7 +3446,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-3.htm",
    "bicim": "htm",
    "sira": 3,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261107-4",
@@ -3479,7 +3506,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 04/11/2026 Tarihli ve 15024 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-7.pdf",
    "bicim": "pdf",
    "sira": 7,
@@ -3564,7 +3591,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261106-1.htm",
    "bicim": "htm",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "sanayi-yatirim"
+   ]
   },
   {
    "id": "20261106-2",
@@ -3592,7 +3621,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Bankacılık Düzenleme ve Denetleme Kurulunun 04/11/2026 Tarihli ve 11593 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Bankacılık Düzenleme ve Denetleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261106-3.pdf",
    "bicim": "pdf",
    "sira": 3,
@@ -3775,7 +3804,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47239] Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261105-3.pdf",
    "bicim": "pdf",
    "sira": 3,
@@ -3871,7 +3900,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47201] Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261104-2.pdf",
    "bicim": "pdf",
    "sira": 2,
@@ -4069,7 +4098,7 @@
    "tur": "TEBLİĞLER",
    "tur_kisa": "Tebliğ",
    "baslik": "Özelleştirme İdaresi Başkanlığının 30/10/2026 Tarihli ve 2026/ÖİB-K-46 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Özelleştirme İdaresi Başkanlığı",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103-2.pdf",
    "bicim": "pdf",
    "sira": 2,
@@ -4088,9 +4117,7 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103-3.htm",
    "bicim": "htm",
    "sira": 3,
-   "kategoriler": [
-    "calisma"
-   ]
+   "kategoriler": []
   },
   {
    "id": "20261103-4",
@@ -4459,7 +4486,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261101-6.pdf",
    "bicim": "pdf",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261101-1",
@@ -4769,7 +4798,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031-20.pdf",
    "bicim": "pdf",
    "sira": 11,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261031-1",
@@ -4867,7 +4898,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031-6.htm",
    "bicim": "htm",
    "sira": 17,
-   "kategoriler": []
+   "kategoriler": [
+    "sanayi-yatirim"
+   ]
   },
   {
    "id": "20261031-7",
@@ -4878,7 +4911,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 15/10/2026 Tarihli ve 14958 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031-7.pdf",
    "bicim": "pdf",
    "sira": 18,
@@ -4895,7 +4928,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 15/10/2026 Tarihli ve 14959 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031-8.pdf",
    "bicim": "pdf",
    "sira": 19,
@@ -4912,7 +4945,7 @@
    "tur": "KURUL KARARLARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 30/10/2026 Tarihli ve 15005 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/10/20261031-9.pdf",
    "bicim": "pdf",
    "sira": 20,

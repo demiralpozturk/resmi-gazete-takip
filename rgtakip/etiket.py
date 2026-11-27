@@ -1,10 +1,13 @@
 """config/kategoriler.yml'deki kurallarla maddeleri konu kategorilerine etiketler.
 
 Eşleştirme büyük/küçük harf ve Türkçe karakter duyarsızdır ("GÜMRÜK" = "gumruk").
-- anahtar_kelimeler: kelime başında eşleşir, ek alabilir ("ithalat" → "ithalatta").
-- tam_kelimeler: yalnız kelimenin tamamı (kısaltmalar için: KDV, GES, SPK …).
-- haric: bunlardan biri geçerse o kategori verilmez.
-- turler / bolumler / kurumlar: fihristteki tür, bölüm veya kurum adında geçerse.
+- anahtar_kelimeler: başlıkta kelime başında eşleşir, ek alabilir ("ithalat" → "ithalatta").
+- tam_kelimeler: başlıkta yalnız kelimenin tamamı (kısaltmalar için: KDV, GES, SPK …).
+- haric: başlıkta bunlardan biri geçerse o kategori verilmez.
+- turler / bolumler / kurumlar: fihristteki tür, bölüm veya yayımlayan kurum adında geçerse.
+
+Anahtar kelimeler bilerek yalnız başlıkta aranır: kurum adındaki kelimeler
+("Çevre, Şehircilik ve İklim Değişikliği Bakanlığı") yanlış etiket üretmesin.
 """
 
 from __future__ import annotations
@@ -42,7 +45,7 @@ class Kategori:
     kurumlar: list[str] = field(default_factory=list)
 
     def eslesir(self, madde: dict) -> bool:
-        metin = sade(" ".join(filter(None, [madde.get("baslik"), madde.get("kurum"), madde.get("grup")])))
+        metin = sade(" ".join(filter(None, [madde.get("baslik"), madde.get("grup")])))
         if any(d.search(metin) for d in self.haric):
             return False
         if any(d.search(metin) for d in self.desenler):

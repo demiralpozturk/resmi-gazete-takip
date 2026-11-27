@@ -74,7 +74,8 @@
    "bicim": "pdf",
    "sira": 4,
    "kategoriler": [
-    "egitim"
+    "egitim",
+    "sanayi-yatirim"
    ]
   },
   {
@@ -222,7 +223,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261114-13.pdf",
    "bicim": "pdf",
    "sira": 13,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261114-14",
