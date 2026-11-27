@@ -45,12 +45,26 @@ def test_baslik_harfi():
         ("Mustafa Kemal Üniversitesi Tekstil Sanatları Uygulama ve Araştırma Merkezi Yönetmeliği", {"egitim"}, set()),
         ("Bağlantı Anlaşması Uyarınca Tesis Edilecek 154 kV Diyarbakır GES TM Enerji İletim Hattı", {"enerji"}, set()),
         ("Harcama Belgeleri Yönetmeliği", set(), {"vergi"}),
+        ("Belediye Meclisi Çalışma Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik", set(), {"cevre", "calisma"}),
+        ("Çevresel Etki Değerlendirmesi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik", {"cevre"}, set()),
+        ("Adli Tıp Kurumu Personeli Görevde Yükselme ve Unvan Değişikliği Yönetmeliği", {"kamu-personeli"}, set()),
+        ("Organize Sanayi Bölgeleri Uygulama Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik", {"sanayi-yatirim"}, set()),
     ],
 )
 def test_etiketler(etk, baslik, olmali, olmamali):
     k = set(etk.etiketle(madde(baslik)))
     assert olmali <= k, k
     assert not (olmamali & k), k
+
+
+def test_kurum_adi_anahtar_kelime_sayilmaz(etk):
+    m = madde("Belediye Meclisi Çalışma Yönetmeliğinde Değişiklik", kurum="Çevre, Şehircilik ve İklim Değişikliği Bakanlığı")
+    assert "cevre" not in etk.etiketle(m)
+
+
+def test_kurum_listesi(etk):
+    m = madde("Tahsilat Usulü Hakkında Duyuru", kurum="Hazine ve Maliye Bakanlığı (Gelir İdaresi Başkanlığı)")
+    assert "vergi" in etk.etiketle(m)
 
 
 def test_yargi_bolumu(etk):

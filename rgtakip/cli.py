@@ -17,6 +17,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 from . import depo, rss, site, telegram
+from .ayristir import kurum_tahmin
 from .etiket import VARSAYILAN_YOL, Etiketleyici
 from .istemci import Istemci
 from .toplayici import gun_topla, mukerrer_kontrol
@@ -31,14 +32,16 @@ def bugun_tr() -> date:
 
 
 def turet_hepsi(etiketleyici: Etiketleyici) -> list[Path]:
-    """Etiketleri güncel kurallarla yeniler ve bütün türetilmiş dosyaları üretir."""
+    """Etiketleri ve eksik kurum adlarını güncel kurallarla yeniler, türetilmiş dosyaları üretir."""
     degisen: list[Path] = []
     gunler = depo.tum_gunler()
     for g in gunler:
-        once = [m.get("kategoriler") for m in g["maddeler"]]
+        once = [(m.get("kurum"), m.get("kategoriler")) for m in g["maddeler"]]
         for m in g["maddeler"]:
+            if not m.get("kurum"):
+                m["kurum"] = kurum_tahmin(m.get("tur"), m.get("bolum"), m.get("baslik", ""))
             m["kategoriler"] = etiketleyici.etiketle(m)
-        if once != [m["kategoriler"] for m in g["maddeler"]] and depo.gun_yaz(g):
+        if once != [(m.get("kurum"), m["kategoriler"]) for m in g["maddeler"]] and depo.gun_yaz(g):
             degisen.append(depo.gun_yolu(date.fromisoformat(g["tarih"])))
     degisen += depo.turet(gunler, etiketleyici.ozet())
     degisen += rss.akislari_yaz(gunler, etiketleyici)

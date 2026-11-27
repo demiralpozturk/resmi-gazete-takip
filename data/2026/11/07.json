@@ -25,7 +25,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-1.pdf",
    "bicim": "pdf",
    "sira": 1,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261107-2",
@@ -55,7 +57,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-3.htm",
    "bicim": "htm",
    "sira": 3,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261107-4",
@@ -113,7 +117,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Enerji Piyasası Düzenleme Kurulunun 04/11/2026 Tarihli ve 15024 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Enerji Piyasası Düzenleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261107-7.pdf",
    "bicim": "pdf",
    "sira": 7,

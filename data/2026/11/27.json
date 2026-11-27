@@ -303,7 +303,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-20.pdf",
    "bicim": "pdf",
    "sira": 18,
-   "kategoriler": []
+   "kategoriler": [
+    "kamu-personeli"
+   ]
   },
   {
    "id": "20261127-21",
@@ -335,7 +337,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261127-2.htm",
    "bicim": "htm",
    "sira": 20,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261127-3",

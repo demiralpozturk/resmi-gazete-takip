@@ -176,9 +176,19 @@ def kurum_tahmin(tur: str | None, bolum: str | None, baslik: str) -> str | None:
     if "KARAR SAYISI" in bs:
         # Cumhurbaşkanı kararıyla yürürlüğe konulan yönetmelik vb.
         return "Cumhurbaşkanlığı"
+    m = _GENITIF.match(duzelt(baslik))
+    if m:
+        # "Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve … Sayılı Kararı"
+        return duzelt(m.group("ad"))
     if t.startswith("KANUN") and "HÜKMÜNDE" not in t:
         return "Türkiye Büyük Millet Meclisi"
     return None
+
+
+# "<Kurum>(n)un/nın/nin/nün <tarih> Tarihli …" başlıklarından kurum adı (ilgi hâli eki atılır)
+_GENITIF = re.compile(
+    r"^(?P<ad>[^;:()]{3,160}?)(?P<ek>[’'][nN]?[ıiuü]n|n[ıiuü]n|[ıiuü]n)\s+\d{1,2}[/.]\d{1,2}[/.]\d{4}\s+Tarihli"
+)
 
 
 _ABLATIF = re.compile(r"^(?P<ad>.+?)(?P<ek>[’']\s*n?[dt][ae]n|n[dt][ae]n|[dt][ae]n)$")
