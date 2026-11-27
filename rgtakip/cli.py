@@ -1,7 +1,7 @@
 """Komut satırı: python -m rgtakip <komut>
 
   guncelle  Son N günü tarar, eksik günleri ve yeni mükerrerleri indirir, çıktıları üretir.
-  turet     Ağa çıkmadan, kayıtlı gün dosyalarından türetilmiş dosyaları yeniden üretir.
+  turet     Ağa çıkmadan, kayıtlı gün dosyalarından türetilmiş dosyaları (JSON, RSS) yeniden üretir.
   ozet      Son güncellemede gelen yeni maddelerin tek satırlık özetini yazar (commit mesajı).
 """
 
@@ -14,7 +14,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import depo
+from . import depo, rss
 from .etiket import VARSAYILAN_YOL, Etiketleyici
 from .istemci import Istemci
 from .toplayici import gun_topla, mukerrer_kontrol
@@ -39,6 +39,7 @@ def turet_hepsi(etiketleyici: Etiketleyici) -> list[Path]:
         if once != [m["kategoriler"] for m in g["maddeler"]] and depo.gun_yaz(g):
             degisen.append(depo.gun_yolu(date.fromisoformat(g["tarih"])))
     degisen += depo.turet(gunler, etiketleyici.ozet())
+    degisen += rss.akislari_yaz(gunler, etiketleyici)
     return degisen
 
 
