@@ -38,7 +38,7 @@
    "tur": "TEBLİĞLER",
    "tur_kisa": "Tebliğ",
    "baslik": "Özelleştirme İdaresi Başkanlığının 30/10/2026 Tarihli ve 2026/ÖİB-K-46 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Özelleştirme İdaresi Başkanlığı",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103-2.pdf",
    "bicim": "pdf",
    "sira": 2,
@@ -57,9 +57,7 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261103-3.htm",
    "bicim": "htm",
    "sira": 3,
-   "kategoriler": [
-    "calisma"
-   ]
+   "kategoriler": []
   },
   {
    "id": "20261103-4",

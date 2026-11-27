@@ -14,6 +14,7 @@
    ],
    "madde_sayisi": 31,
    "kategoriler": {
+    "cevre": 1,
     "dis-ticaret": 1,
     "egitim": 1,
     "enerji": 5,
@@ -21,6 +22,7 @@
     "gumruk": 1,
     "ihale": 1,
     "imar": 2,
+    "kamu-personeli": 1,
     "tarim-gida": 1,
     "ulastirma": 1,
     "vergi": 2,
@@ -61,7 +63,8 @@
    "kategoriler": {
     "egitim": 2,
     "finans": 1,
-    "ihale": 1
+    "ihale": 1,
+    "kamu-personeli": 1
    },
    "dosya": "data/2026/11/25.json"
   },
@@ -133,6 +136,7 @@
     "egitim": 2,
     "finans": 1,
     "ihale": 1,
+    "kamu-personeli": 1,
     "saglik": 3,
     "tarim-gida": 1,
     "yargi": 1
@@ -185,11 +189,13 @@
    ],
    "madde_sayisi": 10,
    "kategoriler": {
+    "cevre": 1,
     "dis-ticaret": 1,
     "egitim": 1,
     "enerji": 1,
     "finans": 2,
-    "ihale": 1
+    "ihale": 1,
+    "sanayi-yatirim": 1
    },
    "dosya": "data/2026/11/18.json"
   },
@@ -207,6 +213,7 @@
     "egitim": 1,
     "finans": 1,
     "ihale": 1,
+    "kamu-personeli": 1,
     "tarim-gida": 1,
     "yargi": 1
    },
@@ -263,7 +270,9 @@
     "enerji": 6,
     "finans": 1,
     "ihale": 1,
-    "saglik": 1
+    "kamu-personeli": 1,
+    "saglik": 1,
+    "sanayi-yatirim": 1
    },
    "dosya": "data/2026/11/14.json"
   },
@@ -298,7 +307,8 @@
    "kategoriler": {
     "finans": 3,
     "ihale": 1,
-    "imar": 1
+    "imar": 1,
+    "kamu-personeli": 1
    },
    "dosya": "data/2026/11/12.json"
   },
@@ -331,8 +341,10 @@
    ],
    "madde_sayisi": 11,
    "kategoriler": {
+    "cevre": 1,
     "finans": 1,
     "ihale": 1,
+    "kamu-personeli": 1,
     "saglik": 1,
     "tarim-gida": 1,
     "vergi": 1
@@ -385,9 +397,11 @@
    ],
    "madde_sayisi": 11,
    "kategoriler": {
+    "cevre": 1,
     "enerji": 1,
     "finans": 1,
     "ihale": 1,
+    "kamu-personeli": 1,
     "tarim-gida": 1
    },
    "dosya": "data/2026/11/07.json"
@@ -406,6 +420,7 @@
     "egitim": 1,
     "finans": 2,
     "ihale": 1,
+    "sanayi-yatirim": 1,
     "yargi": 4
    },
    "dosya": "data/2026/11/06.json"
@@ -457,7 +472,6 @@
    ],
    "madde_sayisi": 16,
    "kategoriler": {
-    "calisma": 1,
     "enerji": 3,
     "finans": 1,
     "ihale": 1,
@@ -495,7 +509,8 @@
    "kategoriler": {
     "egitim": 1,
     "finans": 1,
-    "ihale": 1
+    "ihale": 1,
+    "kamu-personeli": 1
    },
    "dosya": "data/2026/11/01.json"
   },
@@ -514,6 +529,8 @@
     "finans": 1,
     "gumruk": 1,
     "ihale": 1,
+    "kamu-personeli": 1,
+    "sanayi-yatirim": 1,
     "tarim-gida": 1,
     "ulastirma": 1
    },

@@ -126,3 +126,23 @@ def test_tur_kisa():
     assert tur_kisa("GENELGE", None) == "Genelge"
     assert tur_kisa(None, "İLÂN BÖLÜMÜ") == "İlan"
     assert tur_kisa("KURUL KARARLARI", None) == "Karar"
+
+
+@pytest.mark.parametrize(
+    "baslik, kurum",
+    [
+        ("Enerji Piyasası Düzenleme Kurulunun 19/11/2026 Tarihli ve 15055 Sayılı Kararı", "Enerji Piyasası Düzenleme Kurulu"),
+        ("Bankacılık Düzenleme ve Denetleme Kurulunun 17/11/2026 Tarihli ve 11601 Sayılı Kararı", "Bankacılık Düzenleme ve Denetleme Kurulu"),
+        ("Özelleştirme İdaresi Başkanlığının 30/10/2026 Tarihli ve 2026/ÖİB-K-46 Sayılı Kararı", "Özelleştirme İdaresi Başkanlığı"),
+        (
+            "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulunun 30/10/2026 Tarihli ve 75935942-050.01.04-[01/47239] Sayılı Kararı",
+            "Kamu Gözetimi, Muhasebe ve Denetim Standartları Kurulu",
+        ),
+        ("Sayıştay’ın 1/2/2026 Tarihli Kararı", "Sayıştay"),
+        ("Ozan Elektronik Para A.Ş.’nin Faaliyet İzninin İptal Edilmesine İlişkin Karar", None),
+    ],
+)
+def test_baslikta_kurum(baslik, kurum):
+    from rgtakip.ayristir import kurum_tahmin
+
+    assert kurum_tahmin("KURUL KARARLARI", "YÜRÜTME VE İDARE BÖLÜMÜ", baslik) == kurum
