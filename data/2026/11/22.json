@@ -1,0 +1,99 @@
+{
+ "tarih": "2026-11-22",
+ "sayilar": [
+  {
+   "sayi": 33438,
+   "mukerrer": 0,
+   "baslik": "22 Kasım 2026 Tarihli ve 33438 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-22",
+   "madde_sayisi": 5
+  }
+ ],
+ "madde_sayisi": 5,
+ "maddeler": [
+  {
+   "id": "20261122-1",
+   "tarih": "2026-11-22",
+   "sayi": 33438,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Ağrı İbrahim Çeçen Üniversitesi Teknoloji Transfer Ofisi Uygulama ve Araştırma Merkezi Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Ağrı İbrahim Çeçen Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122-1.htm",
+   "bicim": "htm",
+   "sira": 1,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261122-2",
+   "tarih": "2026-11-22",
+   "sayi": 33438,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Hatay Mustafa Kemal Üniversitesi Ön Lisans ve Lisans Eğitim-Öğretim ve Sınav Yönetmeliği",
+   "kurum": "Hatay Mustafa Kemal Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261122-2.htm",
+   "bicim": "htm",
+   "sira": 2,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "ilan-20261122-3",
+   "tarih": "2026-11-22",
+   "sayi": 33438,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261122-3.htm",
+   "bicim": "htm",
+   "sira": 3,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261122-4",
+   "tarih": "2026-11-22",
+   "sayi": 33438,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261122-4.htm",
+   "bicim": "htm",
+   "sira": 4,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261122-5",
+   "tarih": "2026-11-22",
+   "sayi": 33438,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261122-5.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}

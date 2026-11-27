@@ -1,0 +1,131 @@
+{
+ "tarih": "2026-11-08",
+ "sayilar": [
+  {
+   "sayi": 33424,
+   "mukerrer": 0,
+   "baslik": "08 Kasım 2026 Tarihli ve 33424 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-08",
+   "madde_sayisi": 7
+  }
+ ],
+ "madde_sayisi": 7,
+ "maddeler": [
+  {
+   "id": "20261108-1",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "CUMHURBAŞKANLIĞINA VEKÂLET ETME İŞLEMİ",
+   "tur_kisa": "Cumhurbaşkanlığına Vekâlet Etme İşlemi",
+   "baslik": "Cumhurbaşkanlığına, Cumhurbaşkanı Yardımcısı Cevdet YILMAZ’ın Vekâlet Etmesine Dair Tezkere",
+   "kurum": "Cumhurbaşkanlığı",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108-1.pdf",
+   "bicim": "pdf",
+   "sira": 1,
+   "kategoriler": []
+  },
+  {
+   "id": "20261108-2",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Bahçeşehir Üniversitesi Sporda Yenilikçilik Uygulama ve Araştırma Merkezi Yönetmeliği",
+   "kurum": "Bahçeşehir Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108-2.htm",
+   "bicim": "htm",
+   "sira": 2,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261108-3",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Bahçeşehir Üniversitesi Türk Müziği Uygulama ve Araştırma Merkezi Yönetmeliği",
+   "kurum": "Bahçeşehir Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108-3.htm",
+   "bicim": "htm",
+   "sira": 3,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261108-4",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "YARGI BÖLÜMÜ",
+   "tur": "UYUŞMAZLIK MAHKEMESİ KARARLARI",
+   "tur_kisa": "Yargı Kararı",
+   "baslik": "Uyuşmazlık Mahkemesine Ait Kararlar",
+   "kurum": "Uyuşmazlık Mahkemesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261108-4.pdf",
+   "bicim": "pdf",
+   "sira": 4,
+   "kategoriler": [
+    "yargi"
+   ]
+  },
+  {
+   "id": "ilan-20261108-3",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-3.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261108-4",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-4.htm",
+   "bicim": "htm",
+   "sira": 6,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261108-5",
+   "tarih": "2026-11-08",
+   "sayi": 33424,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261108-5.htm",
+   "bicim": "htm",
+   "sira": 7,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}

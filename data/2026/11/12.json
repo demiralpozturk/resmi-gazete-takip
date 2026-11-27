@@ -1,0 +1,146 @@
+{
+ "tarih": "2026-11-12",
+ "sayilar": [
+  {
+   "sayi": 33428,
+   "mukerrer": 0,
+   "baslik": "12 Kasım 2026 Tarihli ve 33428 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-12",
+   "madde_sayisi": 8
+  }
+ ],
+ "madde_sayisi": 8,
+ "maddeler": [
+  {
+   "id": "20261112-1",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Afetler Sonrası Bina Hasar Tespiti Yapılmasına İlişkin Genel Kurallar Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "İçişleri Bakanlığı (Afet ve Acil Durum Yönetimi Başkanlığı)",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112-1.htm",
+   "bicim": "htm",
+   "sira": 1,
+   "kategoriler": [
+    "imar"
+   ]
+  },
+  {
+   "id": "20261112-2",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Bütünleşik Sigortalar Hakkında Yönetmelik",
+   "kurum": "Sigortacılık ve Özel Emeklilik Düzenleme ve Denetleme Kurumu",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112-2.htm",
+   "bicim": "htm",
+   "sira": 2,
+   "kategoriler": [
+    "finans"
+   ]
+  },
+  {
+   "id": "20261112-3",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Sigortacılık Kapsamında Değerlendirilecek Faaliyetler ve Mesafeli Akdedilen Sigorta Sözleşmeleri Hakkında Yönetmelikte Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Sigortacılık ve Özel Emeklilik Düzenleme ve Denetleme Kurumu",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112-3.htm",
+   "bicim": "htm",
+   "sira": 3,
+   "kategoriler": [
+    "finans"
+   ]
+  },
+  {
+   "id": "20261112-4",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Devlet Su İşleri Genel Müdürlüğü Personeli Görevde Yükselme ve Ünvan Değişikliği Yönetmeliği",
+   "kurum": "Devlet Su İşleri Genel Müdürlüğü",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261112-4.htm",
+   "bicim": "htm",
+   "sira": 4,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261112-2",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Yargı İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-2.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261112-3",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-3.htm",
+   "bicim": "htm",
+   "sira": 6,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261112-4",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-4.htm",
+   "bicim": "htm",
+   "sira": 7,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261112-5",
+   "tarih": "2026-11-12",
+   "sayi": 33428,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": "Türkiye Cumhuriyet Merkez Bankası",
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261112-5.htm",
+   "bicim": "htm",
+   "sira": 8,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}
