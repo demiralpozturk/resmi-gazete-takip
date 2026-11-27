@@ -80,8 +80,9 @@ def turet(gunler: list[dict], kategori_ozet: list[dict], kok: Path = VERI) -> li
         index.append(
             {
                 "tarih": g["tarih"],
-                "sayilar": [s["sayi"] for s in g["sayilar"]],
-                "mukerrer": [s["mukerrer"] for s in g["sayilar"] if s.get("mukerrer")],
+                "sayilar": [
+                    {"sayi": s.get("sayi"), "mukerrer": s.get("mukerrer", 0), "pdf": s.get("pdf")} for s in g["sayilar"]
+                ],
                 "madde_sayisi": g["madde_sayisi"],
                 "kategoriler": dict(sorted(sayac.items())),
                 "dosya": f"data/{g['tarih'][:4]}/{g['tarih'][5:7]}/{g['tarih'][8:10]}.json",
