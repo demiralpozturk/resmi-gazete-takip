@@ -77,7 +77,7 @@
   "aciklama": "İş hukuku, sosyal güvenlik, asgari ücret, istihdam",
   "renk": "#9333ea",
   "vurgulu": false,
-  "toplam": 1
+  "toplam": 0
  },
  {
   "kod": "ulastirma",
@@ -94,6 +94,30 @@
   "renk": "#a16207",
   "vurgulu": false,
   "toplam": 5
+ },
+ {
+  "kod": "cevre",
+  "ad": "Çevre ve İklim",
+  "aciklama": "Çevre koruma, iklim, atık, emisyon, korunan alanlar, ÇED",
+  "renk": "#059669",
+  "vurgulu": false,
+  "toplam": 4
+ },
+ {
+  "kod": "kamu-personeli",
+  "ad": "Kamu Personeli",
+  "aciklama": "Görevde yükselme, unvan değişikliği, sözleşmeli personel, atamalar",
+  "renk": "#4338ca",
+  "vurgulu": false,
+  "toplam": 10
+ },
+ {
+  "kod": "sanayi-yatirim",
+  "ad": "Sanayi ve Yatırım",
+  "aciklama": "Organize sanayi, teşvikler, Ar-Ge, kalkınma ajansları, sınai mülkiyet",
+  "renk": "#9f1239",
+  "vurgulu": false,
+  "toplam": 4
  },
  {
   "kod": "yargi",

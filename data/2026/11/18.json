@@ -40,7 +40,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-2.pdf",
    "bicim": "pdf",
    "sira": 2,
-   "kategoriler": []
+   "kategoriler": [
+    "cevre"
+   ]
   },
   {
    "id": "20261118-3",
@@ -55,7 +57,9 @@
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-3.pdf",
    "bicim": "pdf",
    "sira": 3,
-   "kategoriler": []
+   "kategoriler": [
+    "sanayi-yatirim"
+   ]
   },
   {
    "id": "20261118-4",
@@ -101,7 +105,7 @@
    "tur": "KURUL KARARI",
    "tur_kisa": "Karar",
    "baslik": "Bankacılık Düzenleme ve Denetleme Kurulunun 17/11/2026 Tarihli ve 11601 Sayılı Kararı",
-   "kurum": null,
+   "kurum": "Bankacılık Düzenleme ve Denetleme Kurulu",
    "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-6.pdf",
    "bicim": "pdf",
    "sira": 6,

@@ -9,11 +9,12 @@
 #   aciklama          : kısa açıklama
 #   renk              : sitedeki etiket rengi
 #   vurgulu           : true ise sitede ve Telegram bildiriminde öne çıkar
-#   anahtar_kelimeler : başlıkta/kurumda kelime BAŞINDA geçerse eşleşir, ek alabilir
+#   anahtar_kelimeler : başlıkta kelime BAŞINDA geçerse eşleşir, ek alabilir
 #                       ("ithalat" → "İthalatta", "ithalatına" da eşleşir)
-#   tam_kelimeler     : yalnız kelimenin tamamı eşleşir (kısaltmalar: KDV, GES …)
-#   haric             : bunlardan biri geçerse bu kategori VERİLMEZ
-#   turler / bolumler / kurumlar : fihristteki tür, bölüm ya da kurum adında geçerse
+#   tam_kelimeler     : başlıkta yalnız kelimenin tamamı eşleşir (kısaltmalar: KDV, GES …)
+#   haric             : başlıkta bunlardan biri geçerse bu kategori VERİLMEZ
+#   turler / bolumler : fihristteki tür ya da bölüm başlığında geçerse
+#   kurumlar          : yayımlayan kurumun adında geçerse (ör. "Gelir İdaresi")
 #
 # Eşleştirme büyük/küçük harf ve Türkçe karakter duyarsızdır: "gümrük" = "GUMRUK".
 
@@ -97,6 +98,7 @@ kategoriler:
       - motorlu taşıtlar vergisi
       - değerli konut
     tam_kelimeler: [kdv, ötv, mtv, 6183, harç, harcı]
+    kurumlar: [gelir idaresi]
 
   finans:
     ad: Finans ve Bankacılık
@@ -117,6 +119,11 @@ kategoriler:
       - devlet iç borçlanma
       - kaynak kullanımını destekleme fonu
     tam_kelimeler: [bddk, spk, tcmb, kkdf]
+    kurumlar:
+      - bankacılık düzenleme ve denetleme
+      - sermaye piyasası kurulu
+      - merkez bankası
+      - sigortacılık ve özel emeklilik
 
   enerji:
     ad: Enerji ve Maden
@@ -134,6 +141,7 @@ kategoriler:
       - maden
       - kömür
     tam_kelimeler: [epdk, ges, res, hes, kv, teiaş, botaş]
+    kurumlar: [enerji piyasası düzenleme, nükleer düzenleme, enerji ve tabii kaynaklar]
 
   saglik:
     ad: Sağlık
@@ -151,6 +159,7 @@ kategoriler:
       - kozmetik
       - biyosidal
       - hemşire
+    kurumlar: [sağlık bakanlığı, ilaç ve tıbbi cihaz]
 
   tarim-gida:
     ad: Tarım ve Gıda
@@ -171,6 +180,7 @@ kategoriler:
       - meralar
       - organik
     tam_kelimeler: [tmo, mera]
+    kurumlar: [tarım ve orman bakanlığı]
 
   egitim:
     ad: Eğitim
@@ -186,6 +196,7 @@ kategoriler:
       - akademik
       - meslek yüksekokul
     tam_kelimeler: [yök]
+    kurumlar: [üniversitesi, yükseköğretim kurulu, millî eğitim bakanlığı, milli eğitim bakanlığı]
 
   ihale:
     ad: İhale
@@ -215,8 +226,9 @@ kategoriler:
       - iş sağlığı
       - işsizlik
     tam_kelimeler: [sgk]
+    kurumlar: [çalışma ve sosyal güvenlik bakanlığı, sosyal güvenlik kurumu]
     haric:
-      - özel emeklilik
+      - asgari ücret tarifesi   # avukatlık, arabuluculuk vb. meslek ücret tarifeleri
 
   ulastirma:
     ad: Ulaştırma ve Lojistik
@@ -235,6 +247,7 @@ kategoriler:
       - taşımacılık
       - kabotaj
       - gemi
+    kurumlar: [ulaştırma ve altyapı bakanlığı, sivil havacılık]
 
   imar:
     ad: İmar ve Yapı
@@ -252,6 +265,68 @@ kategoriler:
       - müteahhit
       - afet
     tam_kelimeler: [yapı, yapılar, yapıların, bina, binası]
+
+  cevre:
+    ad: Çevre ve İklim
+    aciklama: Çevre koruma, iklim, atık, emisyon, korunan alanlar, ÇED
+    renk: "#059669"
+    anahtar_kelimeler:
+      - çevresel
+      - çevre kirliliği
+      - çevre koruma
+      - çevre denetim
+      - çevre izin
+      - çevre kanunu
+      - iklim
+      - atık
+      - emisyon
+      - sera gazı
+      - karbon
+      - yeşil mutabakat
+      - korunan alan
+      - yaban hayat
+      - sulak alan
+      - milli park
+      - millî park
+      - tabiat
+      - biyolojik çeşitlilik
+      - hava kalitesi
+    tam_kelimeler: [çed]
+
+  kamu-personeli:
+    ad: Kamu Personeli
+    aciklama: Görevde yükselme, unvan değişikliği, sözleşmeli personel, atamalar
+    renk: "#4338ca"
+    anahtar_kelimeler:
+      - personel
+      - görevde yükselme
+      - unvan değişikliği
+      - ünvan değişikliği
+      - insan kaynakları
+      - devlet memurları
+      - kamu görevlileri
+      - memur
+    turler:
+      - atama
+
+  sanayi-yatirim:
+    ad: Sanayi ve Yatırım
+    aciklama: Organize sanayi, teşvikler, Ar-Ge, kalkınma ajansları, sınai mülkiyet
+    renk: "#9f1239"
+    anahtar_kelimeler:
+      - organize sanayi
+      - sanayi bölge
+      - sanayi sicil
+      - endüstri bölge
+      - teknoloji geliştirme
+      - ar ge
+      - yatırım
+      - teşvik
+      - kalkınma ajans
+      - sınai mülkiyet
+      - patent
+    tam_kelimeler: [kosgeb]
+    kurumlar: [sanayi ve teknoloji bakanlığı, türk patent ve marka kurumu]
 
   yargi:
     ad: Yargı Kararları
