@@ -1,0 +1,131 @@
+{
+ "tarih": "2026-11-19",
+ "sayilar": [
+  {
+   "sayi": 33435,
+   "mukerrer": 0,
+   "baslik": "19 Kasım 2026 Tarihli ve 33435 Sayılı Resmî Gazete",
+   "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119.pdf",
+   "fihrist": "https://www.resmigazete.gov.tr/fihrist?tarih=2026-11-19",
+   "madde_sayisi": 7
+  }
+ ],
+ "madde_sayisi": 7,
+ "maddeler": [
+  {
+   "id": "20261119-1",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Pilot Lisans Yönetmeliği (SHY-1)’nde Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Sivil Havacılık Genel Müdürlüğü",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119-1.htm",
+   "bicim": "htm",
+   "sira": 1,
+   "kategoriler": [
+    "ulastirma"
+   ]
+  },
+  {
+   "id": "20261119-2",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Alanya Alaaddin Keykubat Üniversitesi Yapay Zeka ve Simülasyon Uygulama ve Araştırma Merkezi Yönetmeliği",
+   "kurum": "Alanya Alaaddin Keykubat Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119-2.htm",
+   "bicim": "htm",
+   "sira": 2,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "20261119-3",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "YÜRÜTME VE İDARE BÖLÜMÜ",
+   "tur": "YÖNETMELİKLER",
+   "tur_kisa": "Yönetmelik",
+   "baslik": "Bursa Uludağ Üniversitesi Önlisans ve Lisans Eğitim Öğretim Yönetmeliğinde Değişiklik Yapılmasına Dair Yönetmelik",
+   "kurum": "Bursa Uludağ Üniversitesi",
+   "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261119-3.htm",
+   "bicim": "htm",
+   "sira": 3,
+   "kategoriler": [
+    "egitim"
+   ]
+  },
+  {
+   "id": "ilan-20261119-2",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Yargı İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-2.htm",
+   "bicim": "htm",
+   "sira": 4,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261119-3",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Artırma, Eksiltme ve İhale İlânları",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-3.htm",
+   "bicim": "htm",
+   "sira": 5,
+   "kategoriler": [
+    "ihale"
+   ]
+  },
+  {
+   "id": "ilan-20261119-4",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "Çeşitli İlânlar",
+   "kurum": null,
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-4.htm",
+   "bicim": "htm",
+   "sira": 6,
+   "kategoriler": []
+  },
+  {
+   "id": "ilan-20261119-5",
+   "tarih": "2026-11-19",
+   "sayi": 33435,
+   "mukerrer": 0,
+   "bolum": "İLÂN BÖLÜMÜ",
+   "tur": null,
+   "tur_kisa": "İlan",
+   "baslik": "T.C. Merkez Bankasınca Belirlenen Döviz Kurları ve Devlet İç Borçlanma Senetlerinin Günlük Değerleri",
+   "kurum": "Türkiye Cumhuriyet Merkez Bankası",
+   "url": "https://www.resmigazete.gov.tr/ilanlar/eskiilanlar/2026/11/20261119-5.htm",
+   "bicim": "htm",
+   "sira": 7,
+   "kategoriler": [
+    "finans"
+   ]
+  }
+ ]
+}
