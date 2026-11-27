@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resmî Gazete Takip — aranabilir günlük fihrist, gümrük ve dış ticaret</title>
+<meta name="description" content="Resmî Gazete'nin günlük fihristi: arama, tarih ve kategori filtresi, RSS ve açık JSON. Gümrük ve dış ticaret maddeleri öne çıkarılır.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Resmî Gazete Takip">
+<meta property="og:description" content="Her gün otomatik güncellenen, aranabilir Resmî Gazete fihristi. Gümrük ve dış ticaret öne çıkarılmış; RSS ve açık JSON.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='3' width='24' height='26' rx='4' fill='%23b4232a'/%3E%3Cpath d='M10 10h12M10 15h12M10 20h8' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="alternate" type="application/rss+xml" title="Resmî Gazete — Tüm maddeler" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="Resmî Gazete — Gümrük ve Dış Ticaret" href="feeds/gumruk-dis-ticaret.xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="atla" href="#sonuclar">Sonuçlara geç</a>
+<header class="ust">
+  <div class="kap ust-ic">
+    <a class="marka" href="./" aria-label="Resmî Gazete Takip ana sayfa">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="3" width="24" height="26" rx="4"/><path d="M10 10h12M10 15h12M10 20h8"/></svg>
+      <span><strong>Resmî Gazete Takip</strong><small>aranabilir günlük fihrist</small></span>
+    </a>
+    <nav class="ust-menu">
+      <a href="#akislar">RSS ve JSON</a>
+      <a id="kaynak-baglanti" href="https://github.com/demiralpozturk/resmi-gazete-takip" rel="noopener">GitHub</a>
+      <button id="tema" class="ikon-dugme" type="button" aria-label="Açık/koyu tema">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<main class="kap">
+  <section class="giris" aria-labelledby="giris-baslik">
+    <div class="giris-metin">
+      <h1 id="giris-baslik">Resmî Gazete, her sabah <span class="vurgu">aranabilir</span> hâlde.</h1>
+      <p>Günlük fihrist otomatik okunur, maddeler konularına göre etiketlenir. Gümrük ve dış ticaretle ilgili olanlar öne çıkar. RSS ile takip edin ya da açık JSON'u kendi uygulamanızda kullanın.</p>
+    </div>
+    <div id="son-sayi" class="son-sayi kart" aria-live="polite">
+      <div class="iskelet" style="height:1.1rem;width:60%"></div>
+      <div class="iskelet" style="height:2.2rem;width:80%;margin-top:.6rem"></div>
+    </div>
+  </section>
+
+  <section id="vurgulu" class="vurgulu kart" aria-labelledby="vurgulu-baslik" hidden>
+    <div class="bolum-ust">
+      <h2 id="vurgulu-baslik"><span class="nokta"></span>Gümrük ve dış ticaret — son sayı</h2>
+      <a class="kucuk-baglanti" href="feeds/gumruk-dis-ticaret.xml">RSS</a>
+    </div>
+    <ul id="vurgulu-liste" class="vurgulu-liste"></ul>
+  </section>
+
+  <section class="suzgec kart" aria-label="Arama ve filtreler">
+    <div class="arama">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Başlık, kurum ya da numara arayın… ör. ithalat, damping, 2026/33" autocomplete="off" aria-label="Ara">
+      <kbd>/</kbd>
+    </div>
+    <div class="suzgec-satir">
+      <label>Başlangıç<input id="t1" type="date"></label>
+      <label>Bitiş<input id="t2" type="date"></label>
+      <label>Tür<select id="tur"><option value="">Tümü</option></select></label>
+      <label>Bölüm<select id="bolum"><option value="">Tümü</option></select></label>
+      <label class="anahtar"><input id="yalniz-vurgulu" type="checkbox"><span>Yalnız gümrük ve dış ticaret</span></label>
+      <button id="sifirla" class="metin-dugme" type="button">Filtreleri temizle</button>
+    </div>
+    <div id="kategoriler" class="cipler" role="group" aria-label="Kategoriler"></div>
+  </section>
+
+  <section id="sonuclar" aria-live="polite">
+    <p id="sonuc-ozet" class="sonuc-ozet"></p>
+    <div id="liste"></div>
+    <div class="daha"><button id="daha" class="dugme" type="button" hidden>Daha fazla göster</button></div>
+  </section>
+
+  <section id="akislar" class="akislar" aria-labelledby="akis-baslik">
+    <h2 id="akis-baslik">RSS ve açık veri</h2>
+    <div class="akis-izgara">
+      <div class="kart">
+        <h3>RSS akışları</h3>
+        <p class="silik">Bir RSS okuyucusuna (Feedly, Inoreader, Thunderbird, Outlook…) ekleyin; yeni maddeler kendiliğinden gelsin.</p>
+        <ul id="rss-liste" class="baglanti-liste"></ul>
+      </div>
+      <div class="kart">
+        <h3>JSON</h3>
+        <p class="silik">Herkese açık, anahtar gerektirmez. Her sabah güncellenir.</p>
+        <ul class="baglanti-liste">
+          <li><a href="data/latest.json">data/latest.json</a><span>son günün tamamı</span></li>
+          <li><a href="data/index.json">data/index.json</a><span>bütün günlerin listesi ve sayıları</span></li>
+          <li><a href="data/son90.json">data/son90.json</a><span>son 90 günün maddeleri</span></li>
+          <li><code>data/YYYY/AA/GG.json</code><span>tek bir gün</span></li>
+          <li><a href="data/kategoriler.json">data/kategoriler.json</a><span>kategori tanımları</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="alt">
+  <div class="kap alt-ic">
+    <p><strong>Resmî olmayan, bağımsız bir açık veri projesidir.</strong> T.C. Resmî Gazete ile bağlantısı yoktur. Hukuki işlemlerde her zaman <a href="https://www.resmigazete.gov.tr/" rel="noopener">resmigazete.gov.tr</a>'deki asıl metin esas alınır.</p>
+    <p class="yapimci">Geliştiren <a href="https://github.com/demiralpozturk" rel="noopener">Demiralp Öztürk</a> · <a href="https://github.com/demiralpozturk/resmi-gazete-takip" rel="noopener">Kaynak kodu (MIT)</a> · <span id="guncelleme"></span></p>
+  </div>
+</footer>
+<script src="app.js" defer></script>
+</body>
+</html>

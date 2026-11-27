@@ -1,0 +1,67 @@
+name: Siteyi yayımla
+
+# Site; docs/ + data/ + RSS dosyalarından derlenip GitHub Pages'e yüklenir.
+# Depo gizliyken (ücretsiz planda Pages yok) yayım adımı kendiliğinden atlanır.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "data/**"
+      - "feeds/**"
+      - "feed.xml"
+      - "rgtakip/site.py"
+      - ".github/workflows/pages.yml"
+  workflow_run:
+    workflows: ["Resmî Gazete güncelle"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  kontrol:
+    runs-on: ubuntu-latest
+    outputs:
+      acik: ${{ steps.gorunurluk.outputs.acik }}
+    steps:
+      - name: Depo herkese açık mı?
+        id: gorunurluk
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gizli=$(gh api "repos/${{ github.repository }}" --jq .private)
+          if [ "$gizli" = "false" ]; then echo "acik=true" >> "$GITHUB_OUTPUT"; else echo "acik=false" >> "$GITHUB_OUTPUT"; echo "Depo gizli: Pages yayımı atlanıyor."; fi
+
+  yayimla:
+    needs: kontrol
+    if: needs.kontrol.outputs.acik == 'true' && (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.yayim.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Siteyi derle
+        run: python -m rgtakip site --cikti _site
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: yayim
+        uses: actions/deploy-pages@v4
