@@ -1,0 +1,261 @@
+# Resmî Gazete maddelerinin konu kategorileri.
+#
+# Yeni kategori eklemek için aşağıdaki bloklardan birini kopyalayın.
+# Kod (anahtar) yalnız küçük harf, rakam ve tire içerebilir; RSS dosyası
+# feeds/<kod>.xml olarak üretilir.
+#
+# Alanlar:
+#   ad                : sitede ve RSS'te görünen ad
+#   aciklama          : kısa açıklama
+#   renk              : sitedeki etiket rengi
+#   vurgulu           : true ise sitede ve Telegram bildiriminde öne çıkar
+#   anahtar_kelimeler : başlıkta/kurumda kelime BAŞINDA geçerse eşleşir, ek alabilir
+#                       ("ithalat" → "İthalatta", "ithalatına" da eşleşir)
+#   tam_kelimeler     : yalnız kelimenin tamamı eşleşir (kısaltmalar: KDV, GES …)
+#   haric             : bunlardan biri geçerse bu kategori VERİLMEZ
+#   turler / bolumler / kurumlar : fihristteki tür, bölüm ya da kurum adında geçerse
+#
+# Eşleştirme büyük/küçük harf ve Türkçe karakter duyarsızdır: "gümrük" = "GUMRUK".
+
+kategoriler:
+  gumruk:
+    ad: Gümrük
+    aciklama: Gümrük mevzuatı, tarife, rejimler, yetkilendirilmiş yükümlü, serbest bölge, kaçakçılık
+    renk: "#c2410c"
+    vurgulu: true
+    anahtar_kelimeler:
+      - gümrük
+      - gtip
+      - tarife cetveli
+      - yetkilendirilmiş yükümlü
+      - onaylanmış kişi
+      - antrepo
+      - transit
+      - serbest bölge
+      - kaçakçılık
+      - menşe
+      - dahilde işleme
+      - hariçte işleme
+      - geçici ithalat
+      - ata karne
+      - tır karne
+      - eşya kontrol
+      - sınır kapı
+      - sınır ticaret
+    tam_kelimeler: [ncts, eur.1, a.tr, yys]
+
+  dis-ticaret:
+    ad: İthalat / İhracat
+    aciklama: Dış ticaret, ithalat ve ihracat rejimleri, damping, korunma önlemleri, ihracat destekleri
+    renk: "#0e7490"
+    vurgulu: true
+    anahtar_kelimeler:
+      - ithalat
+      - ithal
+      - ihracat
+      - ihraç kayd
+      - ihraç kayıt
+      - dış ticaret
+      - haksız rekabet
+      - damping
+      - sübvansiyon
+      - telafi edici
+      - korunma önlem
+      - ek mali yükümlülük
+      - ilave gümrük vergisi
+      - tarife kontenjan
+      - kota
+      - gözetim uygulama
+      - serbest ticaret
+      - tercihli ticaret
+      - ticaret anlaşma
+      - döviz kazandırıcı
+      - ihracata yönelik
+      - türk eximbank
+      - ürün güvenliği ve denetim
+      - kaynak kullanımını destekleme fonu
+      - türk parası kıymet
+      - kambiyo
+    tam_kelimeler: [kkdf, tpkk]
+
+  vergi:
+    ad: Vergi
+    aciklama: Vergi, harç, tahsilat ve Gelir İdaresi düzenlemeleri
+    renk: "#7c3aed"
+    anahtar_kelimeler:
+      - vergi
+      - katma değer
+      - özel tüketim
+      - gelir vergisi
+      - kurumlar vergisi
+      - damga vergisi
+      - harçlar
+      - tahsilat genel tebliğ
+      - amme alacak
+      - gelir idaresi
+      - vergi usul
+      - motorlu taşıtlar vergisi
+      - değerli konut
+    tam_kelimeler: [kdv, ötv, mtv, 6183, harç, harcı]
+
+  finans:
+    ad: Finans ve Bankacılık
+    aciklama: Merkez Bankası, döviz kurları, bankacılık, sermaye piyasası, sigorta
+    renk: "#15803d"
+    anahtar_kelimeler:
+      - merkez bankası
+      - döviz kur
+      - bankacılık
+      - sermaye piyasası
+      - borsa
+      - sigorta
+      - ödeme hizmet
+      - elektronik para
+      - kripto
+      - finansal kiralama
+      - faktoring
+      - devlet iç borçlanma
+      - kaynak kullanımını destekleme fonu
+    tam_kelimeler: [bddk, spk, tcmb, kkdf]
+
+  enerji:
+    ad: Enerji ve Maden
+    aciklama: Elektrik, doğal gaz, petrol, yenilenebilir enerji, madencilik
+    renk: "#ca8a04"
+    anahtar_kelimeler:
+      - enerji
+      - elektrik
+      - doğal gaz
+      - doğalgaz
+      - petrol
+      - akaryakıt
+      - yenilenebilir
+      - nükleer
+      - maden
+      - kömür
+    tam_kelimeler: [epdk, ges, res, hes, kv, teiaş, botaş]
+
+  saglik:
+    ad: Sağlık
+    aciklama: Sağlık hizmetleri, ilaç, tıbbi cihaz, kozmetik
+    renk: "#db2777"
+    anahtar_kelimeler:
+      - sağlık
+      - ilaç
+      - tıbbi
+      - hastane
+      - eczacı
+      - eczane
+      - hekim
+      - tabip
+      - kozmetik
+      - biyosidal
+      - hemşire
+
+  tarim-gida:
+    ad: Tarım ve Gıda
+    aciklama: Tarım, gıda, hayvancılık, bitki sağlığı, su ürünleri, orman
+    renk: "#65a30d"
+    anahtar_kelimeler:
+      - tarım
+      - gıda
+      - hayvan
+      - bitki
+      - veteriner
+      - karantina
+      - tohum
+      - zirai
+      - su ürünleri
+      - balıkçılık
+      - orman
+      - meralar
+      - organik
+    tam_kelimeler: [tmo, mera]
+
+  egitim:
+    ad: Eğitim
+    aciklama: Üniversiteler, Millî Eğitim, yükseköğretim
+    renk: "#2563eb"
+    anahtar_kelimeler:
+      - üniversite
+      - eğitim
+      - öğretim
+      - yükseköğretim
+      - okul
+      - öğrenci
+      - akademik
+      - meslek yüksekokul
+    tam_kelimeler: [yök]
+
+  ihale:
+    ad: İhale
+    aciklama: Kamu ihaleleri, artırma ve eksiltme ilanları
+    renk: "#0f766e"
+    anahtar_kelimeler:
+      - ihale
+      - artırma
+      - eksiltme
+
+  calisma:
+    ad: Çalışma ve Sosyal Güvenlik
+    aciklama: İş hukuku, sosyal güvenlik, asgari ücret, istihdam
+    renk: "#9333ea"
+    anahtar_kelimeler:
+      - sosyal güvenlik
+      - iş kanunu
+      - asgari ücret
+      - çalışma hayatı
+      - çalışma süre
+      - çalışanlar
+      - işçi
+      - istihdam
+      - emekli
+      - sendika
+      - toplu iş
+      - iş sağlığı
+      - işsizlik
+    tam_kelimeler: [sgk]
+    haric:
+      - özel emeklilik
+
+  ulastirma:
+    ad: Ulaştırma ve Lojistik
+    aciklama: Karayolu, denizcilik, havacılık, demiryolu, taşımacılık
+    renk: "#0369a1"
+    anahtar_kelimeler:
+      - ulaştırma
+      - karayol
+      - denizcilik
+      - liman
+      - havacılık
+      - hava hizmet
+      - havayolu
+      - demiryol
+      - lojistik
+      - taşımacılık
+      - kabotaj
+      - gemi
+
+  imar:
+    ad: İmar ve Yapı
+    aciklama: İmar, yapı, kamulaştırma, kentsel dönüşüm, afet
+    renk: "#a16207"
+    anahtar_kelimeler:
+      - imar
+      - yapı denetim
+      - yapı malzeme
+      - yapı kayıt
+      - yapı ruhsat
+      - binalar
+      - kamulaştırma
+      - kentsel dönüşüm
+      - müteahhit
+      - afet
+    tam_kelimeler: [yapı, yapılar, yapıların, bina, binası]
+
+  yargi:
+    ad: Yargı Kararları
+    aciklama: Anayasa Mahkemesi, Yargıtay, Danıştay ve diğer yargı kararları
+    renk: "#475569"
+    bolumler:
+      - yargı bölümü
