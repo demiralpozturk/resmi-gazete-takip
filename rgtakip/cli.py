@@ -3,6 +3,7 @@
   guncelle  Son N günü tarar, eksik günleri ve yeni mükerrerleri indirir, çıktıları üretir.
   turet     Ağa çıkmadan, kayıtlı gün dosyalarından türetilmiş dosyaları (JSON, RSS) yeniden üretir.
   ozet      Son güncellemede gelen yeni maddelerin tek satırlık özetini yazar (commit mesajı).
+  site      Statik siteyi derler (docs + data + RSS); --sun ile yerelde açar.
 """
 
 from __future__ import annotations
@@ -14,7 +15,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import depo, rss
+from . import depo, rss, site
 from .etiket import VARSAYILAN_YOL, Etiketleyici
 from .istemci import Istemci
 from .toplayici import gun_topla, mukerrer_kontrol
@@ -79,6 +80,14 @@ def komut_turet(args: argparse.Namespace) -> int:
     return 0
 
 
+def komut_site(args: argparse.Namespace) -> int:
+    cikti = site.site_kur(Path(args.cikti))
+    print(f"Site derlendi: {cikti}")
+    if args.sun:
+        site.sun(cikti, args.sun)
+    return 0
+
+
 def ozet_metni(maddeler: list[dict], vurgulu: list[str]) -> str:
     if not maddeler:
         return "Resmî Gazete: yeni madde yok"
@@ -128,6 +137,11 @@ def ana(argv: list[str] | None = None) -> int:
     o = alt.add_parser("ozet", help="yeni maddelerin tek satırlık özeti")
     o.add_argument("yeni_dosya")
     o.set_defaults(fn=komut_ozet)
+
+    s = alt.add_parser("site", help="statik siteyi derle (ve istenirse yerelde sun)")
+    s.add_argument("--cikti", default=str(depo.KOK / "_site"), help="çıktı klasörü (varsayılan _site)")
+    s.add_argument("--sun", type=int, metavar="PORT", help="derledikten sonra http://127.0.0.1:PORT adresinde sun")
+    s.set_defaults(fn=komut_site)
 
     args = p.parse_args(argv)
     logging.basicConfig(
