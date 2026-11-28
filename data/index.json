@@ -1,8 +1,31 @@
 {
- "son_tarih": "2026-11-27",
+ "son_tarih": "2026-11-28",
  "ilk_tarih": "2026-10-30",
- "gun_sayisi": 29,
+ "gun_sayisi": 30,
  "gunler": [
+  {
+   "tarih": "2026-11-28",
+   "sayilar": [
+    {
+     "sayi": 33444,
+     "mukerrer": 0,
+     "pdf": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261128.pdf"
+    }
+   ],
+   "madde_sayisi": 26,
+   "kategoriler": {
+    "egitim": 2,
+    "enerji": 11,
+    "finans": 2,
+    "ihale": 1,
+    "imar": 1,
+    "sanayi-yatirim": 2,
+    "tarim-gida": 1,
+    "vergi": 1,
+    "yargi": 1
+   },
+   "dosya": "data/2026/11/28.json"
+  },
   {
    "tarih": "2026-11-27",
    "sayilar": [

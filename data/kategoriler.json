@@ -21,7 +21,7 @@
   "aciklama": "Vergi, harç, tahsilat ve Gelir İdaresi düzenlemeleri",
   "renk": "#7c3aed",
   "vurgulu": false,
-  "toplam": 5
+  "toplam": 6
  },
  {
   "kod": "finans",
@@ -29,7 +29,7 @@
   "aciklama": "Merkez Bankası, döviz kurları, bankacılık, sermaye piyasası, sigorta",
   "renk": "#15803d",
   "vurgulu": false,
-  "toplam": 37
+  "toplam": 39
  },
  {
   "kod": "enerji",
@@ -37,7 +37,7 @@
   "aciklama": "Elektrik, doğal gaz, petrol, yenilenebilir enerji, madencilik",
   "renk": "#ca8a04",
   "vurgulu": false,
-  "toplam": 26
+  "toplam": 37
  },
  {
   "kod": "saglik",
@@ -53,7 +53,7 @@
   "aciklama": "Tarım, gıda, hayvancılık, bitki sağlığı, su ürünleri, orman",
   "renk": "#65a30d",
   "vurgulu": false,
-  "toplam": 11
+  "toplam": 12
  },
  {
   "kod": "egitim",
@@ -61,7 +61,7 @@
   "aciklama": "Üniversiteler, Millî Eğitim, yükseköğretim",
   "renk": "#2563eb",
   "vurgulu": false,
-  "toplam": 49
+  "toplam": 51
  },
  {
   "kod": "ihale",
@@ -69,7 +69,7 @@
   "aciklama": "Kamu ihaleleri, artırma ve eksiltme ilanları",
   "renk": "#0f766e",
   "vurgulu": false,
-  "toplam": 29
+  "toplam": 30
  },
  {
   "kod": "calisma",
@@ -93,7 +93,7 @@
   "aciklama": "İmar, yapı, kamulaştırma, kentsel dönüşüm, afet",
   "renk": "#a16207",
   "vurgulu": false,
-  "toplam": 5
+  "toplam": 6
  },
  {
   "kod": "cevre",
@@ -117,7 +117,7 @@
   "aciklama": "Organize sanayi, teşvikler, Ar-Ge, kalkınma ajansları, sınai mülkiyet",
   "renk": "#9f1239",
   "vurgulu": false,
-  "toplam": 4
+  "toplam": 6
  },
  {
   "kod": "yargi",
@@ -125,6 +125,6 @@
   "aciklama": "Anayasa Mahkemesi, Yargıtay, Danıştay ve diğer yargı kararları",
   "renk": "#475569",
   "vurgulu": false,
-  "toplam": 33
+  "toplam": 34
  }
 ]
